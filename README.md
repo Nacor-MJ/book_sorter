@@ -68,6 +68,6 @@ MIT License
 
 ---
 
-**Author:** [Your Name]
+**Author:** Nacor-MJ
 
 For questions or contributions, please open an issue or pull request.
