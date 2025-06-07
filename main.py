@@ -5,7 +5,7 @@ from pathlib import Path
 from collections import Counter
 
 from extract import extract_first_1000_words
-from file_utils import visit_files, copy_file_preserve_structure, remove_readonly, print_progress, clean_and_create_dir, copy_tree
+from file_utils import visit_files, print_progress, clean_and_create_dir, copy_tree
 from llm_utils import standardize_filename, get_existing_authors, categorize_with_llm
 from pipeline_utils import extractability_check, print_extension_summary, collect_extractable_files, categorize_validate_and_move_files, validate_author_folders
 
