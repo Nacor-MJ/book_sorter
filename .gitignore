@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+*.cache
+
+# VSCode and editor settings
+.vscode/
+*.code-workspace
+
+# Environment and dependency files
+.env
+.venv/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output and processed data
+sandbox/
+processed/
+finally_finally_processed/
+
+# Python egg files
+*.egg-info/
+
+downloads/
+
+# Ignore test artifacts
+*.coverage
+.coverage*
+
+# Ignore requirements lock files
+poetry.lock
+Pipfile.lock
+
+# Ignore user data
+*.swp
+*.swo
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
